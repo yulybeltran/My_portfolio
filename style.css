@@ -280,7 +280,7 @@ background-color: transparent;
 .sobre_mi{
 	display: flex;
 	flex-direction: column;
-	background-color: #2AEBC3;
+	background-color: #000000;
 	padding: 40px 0px;
 	
 }
@@ -288,10 +288,11 @@ background-color: transparent;
 .sobre_mi p{
 	color: #FFFFFF;
 }
-
-#datos i{
+.sobre_mi h3{
 	color: #FFFFFF;
 }
+
+
 .proyectos{
 	display: flex;
 	flex-direction: column;
