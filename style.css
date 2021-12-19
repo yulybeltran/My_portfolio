@@ -23,6 +23,7 @@ body{
 	padding:0px;
 	font-family: 'Montserrat', sans-serif;
 	max-width:1400px;
+	background-color: #000000;
 	}
 
 
@@ -39,11 +40,12 @@ body{
 header{
 	width:100%; 
 	display:table; 
-	background-color:#000000;
+	background-color:rgb(0, 0, 0, 0.8);
 	font-family: 'Fuzzy Bubbles', cursive;
 	position: fixed;
 	z-index:9999;
 	align-items: center;
+	
 	
 	}
 
@@ -279,17 +281,41 @@ background-color: transparent;
 }
 .sobre_mi{
 	display: flex;
-	flex-direction: column;
+	min-height: 400px;
+	height: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	line-height: 25px;
 	background-color: #000000;
-	padding: 40px 0px;
-	
+	padding: 40px 20px;
 }
+	
+#parrafo{
+	text-align: justify;
+}	
+
 
 .sobre_mi p{
 	color: #FFFFFF;
+	
 }
 .sobre_mi h3{
 	color: #FFFFFF;
+}
+
+.datos{
+	max-width: 350px;
+	text-align: center;
+	
+}
+.datos img{
+	border-radius: 50%;
+	margin-bottom: 20px;
+	border: 3px solid #FFFFFF;
+}
+
+.formacion{
+	max-width: 350px;
 }
 
 
@@ -414,7 +440,7 @@ animation: 4s linear infinite;
 	line-height: 60px;
 	font-family: 'Fuzzy Bubbles', cursive;
 	color: #2AEBC3;
-	font-size: 45px;
+
 	text-shadow: 1px 2px 2px #2AEBC3;
 }
 
@@ -518,7 +544,7 @@ animation: 4s linear infinite;
 	width: 100%;
 }
 	.presentacion h1{
-		font-size: 32px;
+		
 		line-height: 50px;
 		margin: 30px;
 	}
@@ -530,12 +556,18 @@ animation: 4s linear infinite;
 		 
 		
 	 }
+
+	 .sobre_mi{
+		display: flex;	
+		flex-direction: column;
+		
+	}
 }
 
 
 @media only screen and (max-width: 568px) {
 	.presentacion h1{
-		font-size: 28px;
+		
 		line-height: 40px;
 	}
 	
