@@ -178,7 +178,7 @@ background-color: transparent;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    border: 3px solid pink;
+    border: 3px solid #2AEBC3;
     color: #000000;
     font-weight: bold;
 }
@@ -288,6 +288,7 @@ background-color: transparent;
 	line-height: 25px;
 	background-color: #000000;
 	padding: 40px 20px;
+	margin-top: 20px;
 }
 	
 #parrafo{
@@ -316,6 +317,7 @@ background-color: transparent;
 
 .formacion{
 	max-width: 350px;
+	margin-bottom: 50px;
 }
 
 
@@ -324,6 +326,18 @@ background-color: transparent;
 	flex-direction: column;
 	background-color: #000000;
 	padding: 40px 0px;
+}
+
+.d-block{
+	margin: auto;
+	border: #FFFFFF 4px solid;
+	padding-bottom: 100px;
+
+}
+
+.carousel-caption {
+	background-color: #000000;
+	margin-bottom: -20px;
 }
 
 /*.circle{
@@ -458,6 +472,19 @@ animation: 4s linear infinite;
 	 border-radius: 30px 0px 30px 0px;
 	 box-shadow: 2px 2px 5px #000000;
 }	
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border: #2AEBC3 solid 1px;
+    margin-top: none;
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 1440px) {
 	.navar
 	{max-width:95%;
@@ -561,6 +588,10 @@ animation: 4s linear infinite;
 		display: flex;	
 		flex-direction: column;
 		
+	}
+	.formacion{
+		
+		margin-bottom: 50px;
 	}
 }
 
