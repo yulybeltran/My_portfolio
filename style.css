@@ -26,7 +26,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	max-width:1400px;
 	background-color: #000000;
-	}
+}
 
 
 	/* estyles header*/
@@ -37,7 +37,7 @@ body{
     display:table;
 	position:relative;
 	
-	}
+}
 	
 header{
 	width:100%; 
@@ -49,7 +49,7 @@ header{
 	align-items: center;
 	
 	
-	}
+}
 
 #logo img{
 	max-width: 100px;
@@ -58,19 +58,19 @@ header{
 	font-size:24px; 
 	padding:10px 0px;
 	
-	}
+}
 
 nav{
 	width:auto;
 	float:right;
 
-	}
+}
 
 nav ul{
 	display:table;
 	float:right;
 
-	}
+}
 
 nav ul li{
 	float:left;
@@ -88,19 +88,19 @@ nav ul li a{
 	display:inline-block;
 	transition: all 0.5s ease 0s;
 	text-decoration: none;
-	}
+}
 
 nav ul li a:hover{
 	background-color:#2AEBC3;
 	color:#000000;
 	border: 2px solid #000000;
 	transition: all 0.5s ease 0s;
-	}
+}
 
 nav ul li a:hover i{
 	color:#000000;
 	transition: all 0.5s ease 0s;
-	}
+}
 
 nav ul li a i{
 	padding-right:10px; 
@@ -111,7 +111,7 @@ nav ul li a i{
 .toggle-menu ul{
 	display:table;
 	width:25px;
-	}
+}
 
 .toggle-menu ul li{
 	width:100%; 
@@ -144,12 +144,9 @@ form{
 	 max-width: 400px;
 	 box-shadow: 4px 4px 5px #2AEBC3;
 	 padding: 30px;
-	 margin: 20px auto;
-	 
+	 margin: 20px auto;	 
 	
  }
-
-
 
 #formu label{
     width:40%;
@@ -169,7 +166,6 @@ form input[type=text], input[type=number], input[type=password], input[type=emai
 	
 }
 
-
  input[type=text]:focus, input[type=number]:focus, input[type=email]:focus,input[type=password]:focus,select:focus,textarea:focus{
 box-shadow: 2px 2px 2px #2AEBC3;
 outline-style:  none;
@@ -186,6 +182,8 @@ background-color: transparent;
     border: 3px solid #2AEBC3;
     color: #000000;
     font-weight: bold;
+	font-family: 'Fuzzy Bubbles', cursive;
+
 }
 
  input[type=submit]:hover{
@@ -270,6 +268,11 @@ background-color: transparent;
 	background-color: #000000;
 	padding-bottom:  100px;
 	padding-top: 120px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+p i{
+	color: #2AEBC3;
 
 }
 
@@ -278,6 +281,7 @@ background-color: transparent;
 	flex-direction: column;
 	background-color: #000000;
 	padding: 40px 20px;
+	font-family: 'Montserrat', sans-serif;
 	
 }
 .contacto h1{
@@ -290,7 +294,8 @@ background-color: transparent;
 	height: 100%;
 	align-items: center;
 	line-height: 25px;
-	padding: 40px 20px;
+	padding: 10px 20px;
+	font-family: 'Montserrat', sans-serif;
 	
 }
 
@@ -331,7 +336,7 @@ background-color: transparent;
 
 .formacion{
 	max-width: 350px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 40px;
 }
 
@@ -340,7 +345,7 @@ background-color: transparent;
 	display: flex;
 	flex-direction: column;
 	background-color: #000000;
-	padding: 40px 0px;
+	padding: 10px 0px;
 }
 
 .proyectos h1{
@@ -349,18 +354,24 @@ background-color: transparent;
 
 .d-block{
 	margin: auto;
-	border: #FFFFFF 4px solid;
+	border: #FFFFFF 2px solid;
 	padding-bottom: 120px;
-	width: 90%;
+	width: 90%;	
 
+}
+
+.d-none {
+     display: block!important; 
 }
 
 .carousel-caption {
 	background-color: #000000;
 	margin-bottom: -20px;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid #FFFFFF;
 }
 
-/*.circle{
+.circle{
 height: 30px;
 width: 30px;
 position: absolute;
@@ -449,7 +460,7 @@ animation: 4s linear infinite;
 	0%{
 		transform: scale(0) translatey(0) rotate(70deg);
 	}
-}*/
+}
  
 
 
@@ -492,6 +503,7 @@ footer{
     border: #2AEBC3 solid 1px;
     margin-top: none;
     font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -594,6 +606,11 @@ footer{
 		flex-direction: column;
 		
 	}
+	.d-none {
+		display: block!important; 
+   }
+   
+   
 	
 }
 
