@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -43,7 +43,7 @@ header{
 	width:100%; 
 	display:table; 
 	background-color:rgb(0, 0, 0, 0.5);
-	font-family: 'Fuzzy Bubbles', cursive;
+	font-family: 'Architects Daughter', cursive;
 	position: fixed;
 	z-index:9999;
 	align-items: center;
@@ -131,7 +131,7 @@ input[type=checkbox], label{
 
 
 h1{
-	font-family:'Fuzzy Bubbles', cursive;
+	font-family: 'Architects Daughter', cursive;
 	text-align: center;
 	font-size: 40px;
 	text-shadow: 1px 2px 2px #000000;
@@ -182,7 +182,7 @@ background-color: transparent;
     border: 3px solid #2AEBC3;
     color: #000000;
     font-weight: bold;
-	font-family: 'Fuzzy Bubbles', cursive;
+	font-family: 'Architects Daughter', cursive;
 
 }
 
@@ -228,34 +228,6 @@ background-color: transparent;
 .error{
     border: 1px solid red;
 }
-
-
-/*footer{
-	display:table; 
-	padding-bottom:30px;
-	 width:100%;
-	}
-
-.social{
-	margin:0px auto; 
-	display:table; 
-	display:table;
-}
-
-.social li{
-	float:left;
-	 padding:0px 10px;
-	}
-
-.social li a{
-	color:#002e5b; 
-	transition: all 0.5s ease 0s;
-}
-
-.social li a:hover{
-	color:#fde428; 
-	transition: all 0.5s ease 0s;
-}*/
 
 
 .inicio{
@@ -361,16 +333,13 @@ p i{
 
 }
 
-.d-none {
-     display: block!important; 
-}
 
 .carousel-caption {
 	background-color: #000000;
 	margin-bottom: -20px;
 	font-family: 'Montserrat', sans-serif;
 	border: 2px solid #2AEBC3;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	
 }
 
@@ -379,10 +348,13 @@ p i{
     right: 15%;
     bottom: 1.25rem;
     left: 15%;
-   margin-bottom: 2rem;
-    padding-bottom: 2rem; 
+    margin-bottom: 1rem;
+    padding-bottom: 1rem; 
     color: #fff;
     text-align: center;
+}
+.carousel-caption a:hover{
+	color: #2AEBC3;
 }
 
 .circle{
@@ -486,7 +458,7 @@ animation: 4s linear infinite;
 }
 .presentacion h1{
 	line-height: 60px;
-	font-family: 'Fuzzy Bubbles', cursive;
+	font-family: 'Architects Daughter', cursive;
 	color: #2AEBC3;
 
 	text-shadow: 1px 2px 2px #2AEBC3;
@@ -620,13 +592,17 @@ footer{
 		flex-direction: column;
 		
 	}
-	.carousel-caption.d-none.d-md-block {
-		display: block;
+	.carousel-caption .d-md-block h5, p, a{
+		font-size: 12px;
+
+	}
+
+	
 	}
    
-   
+
 	
-}
+
 
 
 @media only screen and (max-width: 568px) {
@@ -657,9 +633,7 @@ footer{
 	width: 100%;
 }
 
-.carousel-caption.d-none.d-md-block {
-	display: block;
-}
+
 }
 
 @media only screen and (max-width: 480px) {
