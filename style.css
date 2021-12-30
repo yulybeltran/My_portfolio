@@ -239,7 +239,7 @@ background-color: transparent;
 	align-items: center;
 	background-color: #000000;
 	padding-bottom:  100px;
-	padding-top: 120px;
+	padding-top: 160px;
 	font-family: 'Rajdhani', sans-serif;
 
 }
@@ -266,7 +266,7 @@ p i{
 	height: 100%;
 	align-items: center;
 	line-height: 25px;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	font-family: 'Rajdhani', sans-serif;
 	
 }
@@ -277,7 +277,7 @@ p i{
 	align-items: center;
 	line-height: 25px;
 
-	padding: 40px 10px;
+	padding: 20px 10px;
 	margin-top: 20px;
 }
 	
@@ -297,7 +297,7 @@ p i{
 .datos{
 	max-width: 350px;
 	text-align: center;
-	padding: 30px;
+	padding: 20px 30px;
 	
 }
 .datos img{
@@ -321,7 +321,7 @@ p i{
 }
 
 .proyectos h1{
-	margin: 40px;
+	margin: 30px;
 }
 
 .d-block{
@@ -594,6 +594,17 @@ footer{
 	.carousel-caption .d-md-block h5, p, a{
 		font-size: 12px;
 
+	}
+	.carousel-caption {
+		background-color: #000000;
+		margin-bottom: -20px;
+		font-family: 'Rajdhani', sans-serif;
+		border: 2px solid #2AA9AF;
+		
+		
+	}
+	footer{
+		font-size: 10px;
 	}
 
 	
