@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -23,7 +24,6 @@ html{
 body{
 	margin:0px;
 	padding:0px;
-	font-family: 'Montserrat', sans-serif;
 	max-width:1400px;
 	background-color: #000000;
 }
@@ -43,7 +43,7 @@ header{
 	width:100%; 
 	display:table; 
 	background-color:rgb(0, 0, 0, 0.5);
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Acme', sans-serif;
 	position: fixed;
 	z-index:9999;
 	align-items: center;
@@ -82,7 +82,7 @@ nav ul li:last-child{
 
 nav ul li a{
 	margin-top: 10px;
-	color:#2AEBC3; 
+	color:#2AA9AF; 
 	font-size:18px; 
 	padding: 10px 10px;
 	display:inline-block;
@@ -91,7 +91,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	background-color:#2AEBC3;
+	background-color:#2AA9AF;
 	color:#000000;
 	border: 2px solid #000000;
 	transition: all 0.5s ease 0s;
@@ -104,7 +104,7 @@ nav ul li a:hover i{
 
 nav ul li a i{
 	padding-right:10px; 
-	color:#2AEBC3; 
+	color:#2AA9AF; 
 	transition: all 0.5s ease 0s;
 }
 
@@ -116,7 +116,7 @@ nav ul li a i{
 .toggle-menu ul li{
 	width:100%; 
 	height:3px;
-	 background-color:#2AEBC3;
+	 background-color:#2AA9AF;
 	 margin-bottom:4px;
 	
 }
@@ -131,18 +131,18 @@ input[type=checkbox], label{
 
 
 h1{
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Acme', sans-serif;
 	text-align: center;
 	font-size: 40px;
 	text-shadow: 1px 2px 2px #000000;
-	color: #2AEBC3;
+	color: #2AA9AF;
 }
 
 form{
 
 	background-color: rgb(255, 255, 255 , 0.8);
 	 max-width: 400px;
-	 box-shadow: 4px 4px 5px #2AEBC3;
+	 box-shadow: 4px 4px 5px #2AA9AF;
 	 padding: 30px;
 	 margin: 20px auto;	 
 	
@@ -167,7 +167,7 @@ form input[type=text], input[type=number], input[type=password], input[type=emai
 }
 
  input[type=text]:focus, input[type=number]:focus, input[type=email]:focus,input[type=password]:focus,select:focus,textarea:focus{
-box-shadow: 2px 2px 2px #2AEBC3;
+box-shadow: 2px 2px 2px #2AA9AF;
 outline-style:  none;
 background-color: transparent;
 	border-bottom: #000000 1px solid;
@@ -179,10 +179,10 @@ background-color: transparent;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    border: 3px solid #2AEBC3;
+    border: 3px solid #2AA9AF;
     color: #000000;
     font-weight: bold;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Rajdhani', sans-serif;
 
 }
 
@@ -222,7 +222,7 @@ background-color: transparent;
 }
 
 .success{
-    border: 1px solid #2AEBC3;
+    border: 1px solid #2AA9AF;
 }
  
 .error{
@@ -240,11 +240,11 @@ background-color: transparent;
 	background-color: #000000;
 	padding-bottom:  100px;
 	padding-top: 120px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 
 }
 p i{
-	color: #2AEBC3;
+	color: #2AA9AF;
 
 }
 
@@ -253,11 +253,11 @@ p i{
 	flex-direction: column;
 	background-color: #000000;
 	padding: 40px 20px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	
 }
 .contacto h1{
-	color: #2AEBC3;
+	color: #2AA9AF;
 	margin-bottom: 20px;
 }
 .sobre_mi1{
@@ -267,7 +267,7 @@ p i{
 	align-items: center;
 	line-height: 25px;
 	padding: 10px 20px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	
 }
 
@@ -303,7 +303,7 @@ p i{
 .datos img{
 	border-radius: 50%;
 	margin-bottom: 20px;
-	border: 3px solid #FFFFFF;
+	border: 3px solid #2AA9AF;
 }
 
 .formacion{
@@ -326,7 +326,7 @@ p i{
 
 .d-block{
 	margin: auto;
-	border: #2AEBC3 3px solid;
+	border: #2AA9AF 3px solid;
 	padding-bottom: 200px;
 	width: 80%;	
 	
@@ -337,8 +337,8 @@ p i{
 .carousel-caption {
 	background-color: #000000;
 	margin-bottom: -20px;
-	font-family: 'Montserrat', sans-serif;
-	border: 2px solid #2AEBC3;
+	font-family: 'Rajdhani', sans-serif;
+	border: 2px solid #2AA9AF;
 	padding: 10px 10px;
 	
 }
@@ -354,7 +354,7 @@ p i{
     text-align: center;
 }
 .carousel-caption a:hover{
-	color: #2AEBC3;
+	color: #2AA9AF;
 }
 
 .circle{
@@ -458,10 +458,10 @@ animation: 4s linear infinite;
 }
 .presentacion h1{
 	line-height: 60px;
-	font-family: 'Architects Daughter', cursive;
-	color: #2AEBC3;
+	font-family: 'Acme', sans-serif;
+	color: #2AA9AF;
 
-	text-shadow: 1px 2px 2px #2AEBC3;
+	
 }
 
 .foto:hover{
@@ -475,8 +475,7 @@ animation: 4s linear infinite;
      -ms-transform:scale(1);
 	 max-width: 250px;
 	 width: 100%;
-	 border-radius: 30px 0px 30px 0px;
-	 box-shadow: 2px 2px 5px #000000;
+	
 }	
 
 footer{
@@ -486,10 +485,10 @@ footer{
     background-color: #000000;
     color: #FFFFFF;
     padding: 10px;
-    border: #2AEBC3 solid 1px;
+    border: #2AA9AF solid 1px;
     margin-top: none;
     font-size: 12px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -554,7 +553,7 @@ footer{
 	}
 	
 	nav ul li a{
-		color: #2AEBC3; 
+		color: #2AA9AF; 
 		font-size:15px; 
 		padding:10px 20px;
 		display:block; 
@@ -562,7 +561,7 @@ footer{
 	}
 	
 	nav ul li a i{
-		color: #2AEBC3;;
+		color: #2AA9AF;;
 		padding-right:13px;
 		}
 		.presentacion h1{
