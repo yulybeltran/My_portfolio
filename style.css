@@ -326,7 +326,7 @@ p i{
 
 .d-block{
 	margin: auto;
-	border: #2AA9AF 3px solid;
+	/*border: #2AA9AF 3px solid;*/
 	padding-bottom: 200px;
 	width: 80%;	
 	
@@ -524,7 +524,7 @@ footer{
 		  padding:8px 0px;
 		  display:inline-block; 
 		  cursor:pointer;
-		  background-image: url(images/menu.png); 
+		  background-image: url(images/heroicons-solid_menu.png); 
 	}
 	
 	input[type=checkbox]:checked ~ nav {
@@ -624,7 +624,7 @@ footer{
 		 -ms-transform:scale(1);
 		 max-width: 150px;
 		 width: 100%;
-		 border-radius: 30px 0px 30px 0px;
+		
 		 
 	}	
 	
