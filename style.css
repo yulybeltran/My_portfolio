@@ -527,7 +527,7 @@ footer{
 		  padding:8px 0px;
 		  display:inline-block; 
 		  cursor:pointer;
-		  background-image: url(images/heroicons-solid_menu.png); 
+		  background-image: url(images/menu1.png); 
 	}
 	
 	input[type=checkbox]:checked ~ nav {
