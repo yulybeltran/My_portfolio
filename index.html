@@ -12,21 +12,25 @@
 </head>
 <body  class="body">    
     <header>
-        <section class="navar">
-            <div id="logo">
-                <img src="images/Logotipo.png">
-            </div>
-            <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
-            <input type="checkbox" id="toggle-1">
-                <nav>
-                <ul>
-                    <li><a href="#inicio"><i class="fas fa-home"></i>Inicio</a></li>
-                    <li><a href="#sobre_mi"><i class="fas fa-user-circle"></i>Sobre mi</a></li>
-                    <li><a href="#proyectos"><i class="fas fa-folder-open"></i>Proyectos</a></li>
-                    <li><a href="#contacto"><i class="fas fa-mail-bulk"></i>Contacto</a></li>
+        <nav class="nav">
+            <div class="nav__content">
+                <img class="nav__logo" src="images/Logotipo.png" alt="Logo">
+                <ul class="nav__menu">
+                    <div class="menu__icon menu__icon--close" onclick="hideMenu()">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <li class="nav__menu--item"><a class="nav__menu--link" href=#inicio onclick="hideMenu()">Inicio</a></li>
+                    <li class="nav__menu--item"><a class="nav__menu--link" href=#sobre_mi onclick="hideMenu()">Sobre mi</a></li>
+                    <li class="nav__menu--item"><a class="nav__menu--link" href=#proyectos onclick="hideMenu()">Proyectos</a></li>
+                    <li class="nav__menu--item"><a class="nav__menu--link" href=#contacto onclick="hideMenu()">Contacto</a></li>
+                   
                 </ul>
-                </nav>
-        </section>
+                <div class="menu__icon menu__icon--hamburger" onclick="showMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+            </div>
+        </nav>
     </header>
     <main>
         <section class="inicio" id="inicio">
@@ -65,7 +69,7 @@
 
                 <img id="foto" src="images/foto1.jpg" >
                 <p><i class="fas fa-envelope"> </i>  yulybeltran082@gmail.com</p>
-                <p><i class="fas fa-phone-alt"> </i>  +(57) 317 418 57 64</p><br>
+               
             
                     <p id="parrafo"> Me apasiona la programación, planificación, creación y desarrollo de interfaces web.
                         Tengo un gran sentido responsabilidad, confiabilidad y lealtad en las
