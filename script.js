@@ -4,7 +4,7 @@ const menuButton = document.querySelector(".menu__icon--hamburger");
 const closeButton = document.querySelector(".menu__icon--close");
 
 
-/* Show menu links */
+
 function showMenu() {
     menu.classList.add("nav__menu--active");
     menuButton.classList.add("hide");
@@ -12,7 +12,7 @@ function showMenu() {
    
 }
 
-/* Hide menu links */
+
 function hideMenu() {
     menu.classList.remove("nav__menu--active");
     menuButton.classList.remove("hide");
