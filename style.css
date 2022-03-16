@@ -29,9 +29,6 @@ body{
 }
 
 
-	/* estyles header*/
-	
-
 
 	.nav__menu--item,
 	.studies__item--place,
@@ -334,6 +331,11 @@ p i{
 	text-align: center;
 	padding: 20px 30px;
 	
+}
+
+.datos a img{
+	margin: 16px;
+
 }
 #foto{
 	max-width: 180px;
